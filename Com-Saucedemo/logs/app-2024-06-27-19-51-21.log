@@ -1,0 +1,3 @@
+2024-06-27 19:51:21 INFO  testcases.BaseClass - saucelab is initialised
+2024-06-27 19:51:21 INFO  testcases.TestLowToHighSort - Low to High sort is done
+2024-06-27 19:51:21 INFO  testcases.TestAddOnesieToCart - onesie is added to the cart

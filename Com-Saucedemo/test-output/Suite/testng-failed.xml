@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="failure_Rerun.Transformer"/>
+  </listeners>
+  <test parallel="none" name="HighToLow(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.TestAddOnesieToCart">
+        <methods>
+          <include name="addOnesieToCart"/>
+        </methods>
+      </class> <!-- testcases.TestAddOnesieToCart -->
+      <class name="testcases.TestLowToHighSort">
+        <methods>
+          <include name="testToCart"/>
+        </methods>
+      </class> <!-- testcases.TestLowToHighSort -->
+      <class name="testcases.TestHighToLowSort">
+        <methods>
+          <include name="testHighToLow"/>
+        </methods>
+      </class> <!-- testcases.TestHighToLowSort -->
+    </classes>
+  </test> <!-- HighToLow(failed) -->
+</suite> <!-- Failed suite [Suite] -->

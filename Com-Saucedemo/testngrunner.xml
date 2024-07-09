@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="none" name="Suite" >
+	                    <include name="sanity"/>
+	                    <listeners>
+        <listener class-name="failure_Rerun.Transformer"/>
+    </listeners>
+    <test name="HighToLow">
+        <classes>
+            <class name="testcases.TestHighToLowSort">
+               </class>
+            <class name="testcases.TestLowToHighSort">
+            </class>
+            <class name="testcases.TestAddOnesieToCart">
+                            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
